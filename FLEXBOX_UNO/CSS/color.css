@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-nav {
+nav ul {
     width: 100%;
     display: flex;
     background-color: #bba45b;
@@ -12,7 +12,7 @@ nav {
     gap: 5px;
 }
 
-li {
+nav ul li {
     list-style-type: none;
     font-family: sans-serif;
     font-size: 20px;
@@ -23,12 +23,12 @@ li {
 
 }
 
-li:nth-child(even) {
+nav ul li:nth-child(even) {
     background-color: #122245;
     color: #af963c;
 }
 
-li:nth-child(odd) {
+nav ul li:nth-child(odd) {
     background-color: #af963c;
     color: #122245;
 }
