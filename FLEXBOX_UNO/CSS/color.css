@@ -20,7 +20,6 @@ nav ul li {
     text-align: center;
     padding: 15px;
     flex: 1 0 25px;
-
 }
 
 nav ul li:nth-child(even) {
