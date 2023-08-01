@@ -1,0 +1,79 @@
+https://lenguajecss.com/css/maquetacion-y-colocacion/flex/
+
+Flexbox es una herramienta de diseño muy útil para crear diseños flexibles y adaptables a diferentes dispositivos. Esto es esencial para crear aplicaciones y sitios web modernos y receptivos.
+
+
+¡Claro! Algunas de las propiedades de Flexbox son:
+
+flex-direction: define la dirección del eje principal.
+justify-content: alinea los ítems en el eje principal.
+align-items: alinea los ítems en el eje cruzado.
+flex-wrap: define si los ítems deben envolverse o no.
+flex-flow: es una propiedad abreviada que combina flex-direction y flex-wrap.
+align-content: alinea las líneas de ítems en el eje cruzado cuando hay varias líneas.
+
+
+--------------------ejemplo
+
+*{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+body{
+  display:flex;
+  width:100%;
+  height:100vh;
+  background-color: #444857;
+  justify-content:center;
+  align-items:center;
+  padding:50px;
+}
+    main{
+      display:flex;
+      width:100%;/*se le da el 100% para que abarque la pantalla completa*/ 
+      background-color:#fff;
+      padding:10px;
+      font-family: helvetica;
+      flex-direction:column;
+    }
+    section{
+    display:flex; 
+      gap:20px;
+      margin:10px 0;
+    }
+    figure img{
+      width:100%;
+    }
+h1{
+  font-weight: normal;
+}
+p{
+  padding:10px 0;
+}
+
+
+----------------------------html
+
+<main>
+      <h1>
+        Images Side by Side
+      </h1>
+    <section>
+      <figure>
+        <img src="https://cdn.pixabay.com/photo/2016/07/19/20/53/background-1528920_1280.jpg" alt="img_1">
+       
+      </figure>
+       <figure>
+        <img src="https://cdn.pixabay.com/photo/2016/07/19/20/53/background-1528920_1280.jpg" alt="img_2">
+       
+      </figure>
+       <figure>
+        <img src="https://cdn.pixabay.com/photo/2016/07/19/20/53/background-1528920_1280.jpg" alt="img_3">
+       
+      </figure>
+    </section>
+      <p>
+        The grid of boxes can also be used to display images side by side.
+      </p>
+    </main>
