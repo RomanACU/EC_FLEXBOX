@@ -1,0 +1,72 @@
+main{
+  width:100%;
+  min-height:100vh;
+  background-color: #f2f2f2;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+section{
+  display:flex;
+  background-color: white;
+}
+section > .A{
+  width:160px;
+  padding:40px;
+  background-color: #e28525;
+  font-family: 'Oswald', sans-serif;
+  border-radius: 8px 0 0 8px;
+}
+section > .B{
+  width:160px;
+  padding:40px;
+  background-color: #016972;
+  font-family: 'Oswald', sans-serif;
+}
+section > .C{
+  width:160px;
+  padding:40px;
+  background-color: #00403f;
+  font-family: 'Oswald', sans-serif;
+  border-radius: 0 8px 8px 0;
+}
+section > .A h2,p{
+  color:white;
+}
+section > .B h2,p{
+  color:white;
+}
+section > .C h2,p{
+  color:white;
+}
+section > .A p, .B p, .C p{
+  font-size: 13px;
+  font-family: helvetica;
+}
+section > .A button{
+  background-color: #fff;
+  border:1px solid white;
+  border-radius:25px;
+  padding:10px 23px;
+  margin-top:30px;
+  color:#e28525;
+  font-weight: bold;
+}
+section > .B button{
+  background-color: #fff;
+  border:1px solid white;
+  border-radius:25px;
+  padding:10px 23px;
+  margin-top:30px;
+  color:#016972;
+  font-weight: bold;
+}
+section > .C button{
+  background-color: #fff;
+  border:1px solid white;
+  border-radius:25px;
+  padding:10px 23px;
+  margin-top:30px;
+  color:#00403f;
+  font-weight: bold;
+}

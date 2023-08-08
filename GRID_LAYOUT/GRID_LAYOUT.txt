@@ -1,0 +1,40 @@
+CSS Grid Layout presenta un sistema de cuadrícula bidimensional para CSS. Las cuadrículas se pueden utilizar para posicionar áreas principales de la página o pequeños elementos de la interfaz de usuario.
+
+¿Qué es una cuadrícula(grid)?
+
+Una cuadrícula es un conjunto de líneas horizontales y verticales que se intersectan - un grupo define columnas y el otro filas. Los elementos se pueden colocar en la cuadrícula respetando estas columnas y filas.
+
+Tamaños fijos y flexibles
+
+Usted puede crear una cuadrícula con tamaños fijos, utilizando píxeles, por ejemplo. También se puede crear una cuadrícula utilizando tamaños flexibles con porcentajes o con la nueva unidad de medida fr (fracción), diseñada para este propósito.
+
+Posicionamiento de elementos
+
+Puede colocar elementos en una ubicación precisa en la cuadrícula utilizando números de línea, nombres o seleccionando un área de la cuadrícula. Grid también contiene un algoritmo para controlar la ubicación de elementos que no tienen una posición explícita en la cuadrícula.
+
+Creación de líneas adicionales para alojar contenido
+
+Usted puede definir una cuadrícula explícita con grid layout. La especificación Grid Layout es lo suficientemente flexible como para permitir agregar filas y columnas adicionales cuando sea necesario. Características como la adición de "tantas columnas como caben en un contenedor" también fueron incuidas.
+
+Control de alineación
+
+Grid contiene características de alineación para poder controlar la forma cómo se alinean los elementos una vez colocados en un área de cuadrícula y cómo está alineada toda la cuadrícula.
+
+Control de contenido superpuesto
+
+Se puede colocar más de un elemento en una celda de la cuadrícula o área, las cuales pueden solaparse o superponerse total o parcialmente entre sí. Esta estratificación puede ser controlada con la propiedad z-index.
+
+Grid es una poderosa especificación que, cuando se combina con otras partes de CSS como flexbox, puede ayudarle a crear diseños que antes eran imposibles de construir en CSS. Todo comienza creando una cuadrícula en su contenedor de cuadrícula.
+
+El contenedor de Grid
+
+Creamos un contenedor de cuadrícula al declarar display: grid o display: inline-grid en un elemento. Tan pronto como hagamos esto todos los hijos directos de ese elemento se convertirán en elementos de la cuadrícula.
+
+1- https://developer.mozilla.org/es/docs/Web/CSS/CSS_grid_layout/Basic_concepts_of_grid_layout
+2- https://developer.mozilla.org/es/docs/Web/CSS/CSS_grid_layout/Relationship_of_grid_layout_with_other_layout_methods
+3- https://developer.mozilla.org/es/docs/Web/CSS/CSS_grid_layout#ejemplo_sencillo
+4- https://developer.mozilla.org/es/docs/Web/CSS/CSS_grid_layout/Relationship_of_grid_layout_with_other_layout_methods
+
+
+5- https://www.magicpattern.design/tools/css-backgrounds
+6- https://freefrontend.com/css-background-patterns/

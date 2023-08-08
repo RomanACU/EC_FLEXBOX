@@ -1,0 +1,55 @@
+/* *{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+} */
+body{
+    min-height: 100vh;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.padre{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, min-content);
+    column-gap: 20px;
+    row-gap: 10px;
+    text-align: center;
+}
+.padre > .hijo1{
+    grid-column: 1/-1;
+    background-color: #ae8;
+}
+.padre > .hijo2{
+    grid-column: span 2;
+    background-color: #b98;
+}
+.padre > .hijo3{
+    grid-column: span 3;
+    background-color: rgb(136, 226, 238);
+}
+.padre > .hijo4{
+    grid-column: span 2;
+    background-color: rgb(136, 238, 204);
+}
+.padre > .hijo5{
+    grid-column: span 2;
+    background-color: rgb(136, 206, 238);
+}
+.padre > .hijo6{
+    grid-column: span 3;
+    background-color: #d56;
+}
+.padre > .hijo7{
+    grid-column: 1/-1;
+    background-color: rgb(238, 136, 175);
+}
+.padre > .hijo8{
+    grid-column: span 2;
+    background-color: #ae8;
+}
+.padre > .hijo9{
+    grid-column: span 2;
+    background-color: rgb(163, 136, 238);
+}
