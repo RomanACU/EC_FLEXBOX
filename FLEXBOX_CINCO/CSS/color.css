@@ -24,11 +24,11 @@
 .c3,
 .c4,
 .c5,
-.c6 {
+.c6{
     width: calc(100%/6);
 }
 
-.c1 {
+.c1{
     /* background-color: burlywood; */
     background: url("https://images.pexels.com/photos/17647178/pexels-photo-17647178/free-photo-of-ciudad-punto-de-referencia-turismo-inglaterra.jpeg");
     background-size: cover;
@@ -36,7 +36,7 @@
     background-position: center;
 }
 
-.c2 {
+.c2{
     /* background-color: rgb(136, 135, 222); */
     background: url("https://images.pexels.com/photos/18004075/pexels-photo-18004075.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-size: cover;
@@ -44,7 +44,7 @@
     background-position: center;
 }
 
-.c3 {
+.c3{
     /* background-color: #d6b3b1; */
     background: url("https://images.pexels.com/photos/17167274/pexels-photo-17167274/free-photo-of-bosque-ciervo-cuernos-fauna.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-size: cover;
@@ -52,7 +52,7 @@
     background-position: center;
 }
 
-.c4 {
+.c4{
     /* background-color: #f97992; */
     background: url("https://images.pexels.com/photos/4652004/pexels-photo-4652004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-size: cover;
@@ -60,7 +60,7 @@
     background-position: center;
 }
 
-.c5 {
+.c5{
     /* background-color: #231b42; */
     background: url("https://images.pexels.com/photos/2422259/pexels-photo-2422259.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-size: cover;
@@ -68,7 +68,7 @@
     background-position: center;
 }
 
-.c6 {
+.c6{
     /* background-color: #e6e1cd; */
     background: url("https://images.pexels.com/photos/2884867/pexels-photo-2884867.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-size: cover;
