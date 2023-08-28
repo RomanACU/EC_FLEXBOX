@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fded72;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+div {
+    max-width: 400px;
+    padding: clamp(15px, 4vw, 20px);
+    background-color: #f17b5b;
+    border-radius: 5px;
+}
+
+div h1 {
+    font-family: helvetica;
+    font-size: clamp(2rem, 4.5vw, 5rem);
+    color: #1c1d21;
+}
+
+div p {
+    font-family: arial;
+    font-size: clamp(1rem, 2vw, 1.5rem); /*propiedad CLAMP*/
+    color: #1c1d21;
+}
